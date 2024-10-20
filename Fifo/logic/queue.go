@@ -35,4 +35,4 @@ func New() *Queue {
 }
 func (q *Queue) Len() int {
 	return len(q.arr)
-}
+} //

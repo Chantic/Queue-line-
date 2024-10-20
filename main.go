@@ -38,7 +38,7 @@ func main() {
 			fmt.Println("Choose service\n 1.Order offer\n 2.Show number \n, 3.Exchange money\n, 4.Get a Credit \n, 5. Get an Allowance ")
 
 			var input1 string
-			fmt.Scan(&input1)
+			//fmt.Scan(&input1)
 
 			switch input1 {
 			case "-1":
@@ -108,7 +108,7 @@ func main() {
 			fmt.Println("Choose Service ,\n 1.done offer,\n 2.show offer  \n ")
 
 			var input2 string
-			fmt.Scan(&input2)
+			//fmt.Scan(&input2)
 
 			println("in", input2)
 			switch input2 {

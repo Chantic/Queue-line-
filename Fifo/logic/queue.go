@@ -30,9 +30,10 @@ func (q *Queue) Peek() string {
 	}
 	return q.arr[0]
 }
-func New() *Queue {
-	return &Queue{}
-}
+
+//	func New() *Queue {
+//		return &Queue{}
+//	}
 func (q *Queue) Len() int {
 	return len(q.arr)
 }
